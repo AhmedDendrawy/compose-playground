@@ -7,6 +7,7 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.tooling.preview.Preview
+import com.ahmed.firstproject.style.myStyle
 
 @Composable
 fun FirstFoundationComponent() {
@@ -16,9 +17,8 @@ fun FirstFoundationComponent() {
         value = textValue,
         onValueChange = {
             textValue = it
-
-
-        }
+        },
+        textStyle = myStyle
     )
 
 
