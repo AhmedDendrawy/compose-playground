@@ -8,7 +8,7 @@ import androidx.compose.ui.unit.sp
 
 val myStyle=TextStyle(
     color = Color.Blue,
-    fontSize = 28.sp,
+    fontSize = 32.sp,
     fontStyle = FontStyle.Italic,
     fontFamily = oregano
 )
