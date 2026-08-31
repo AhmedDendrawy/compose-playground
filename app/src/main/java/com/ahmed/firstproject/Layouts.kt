@@ -3,6 +3,7 @@ package com.ahmed.firstproject
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
@@ -25,9 +26,10 @@ fun LayoutCompose() {
         verticalArrangement = Arrangement.SpaceBetween
 
     ) {
+
         FirstComponent()
-        SecondComponent()
-        ThirdComponent()
+        SecondComponent(Modifier.align(Alignment.Start))
+        ThirdComponent(modifier = Modifier.align(Alignment.End))
     }
 
 
